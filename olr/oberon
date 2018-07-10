@@ -1,4 +1,5 @@
-#!/bin/bash
+export OWIDTH=1500
+export OWIDTH=1500
 if [ "$(uname -m)" == "x86_64" ]; then ./olx
 elif [ "$(uname -m)" == "i686" ]; then ./olx
 elif [ "$(uname -m)" == "mips" ]; then ./olm

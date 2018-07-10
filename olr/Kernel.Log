@@ -1,0 +1,62 @@
+ETH Oberon / Linux X86 2015-12-11
+StackOrg  FF88F3B0
+08053CD8 Modules
+08051568 Files
+0804BEC8 Kernel
+08049198 Linux0
+Heap growing:  082A3000 092A3000
+(GC 0ms CG)
+CmdLine: 1 ./olx
+OTRACE= not found
+082B4008 System
+082B9A28 FileDir
+082BAE08 Objects
+082C0A88 Display
+082C97D8 Input
+TERM=xterm-256color
+SSH_CONNECTION= not found
+XAUTHORITY=/home/gunter/.Xauthority
+DISPLAY=:0
+The X.Org Foundation
+OWIDTH= not found
+OHEIGHT=800
+00000085 BIG-REQUESTS success
+OSHM= not found
+00000082 MIT-SHM success
+082CE978 Fonts
+FontConv= not found
+082D0A58 Viewers
+082D2B78 Reals
+082D44F8 Texts
+082DC758 Oberon
+Color= not found
+MB= not found
+082E21B8 TextFrames
+082E9108 MenuViewers
+082F1F58 Script
+082F7268 ScriptFrames
+08301628 Styles
+08306278 Printer
+083081A8 Pictures
+0830B028 Bitmaps
+0831D668 Out
+0831EFA8 Centronics
+0831F7B8 V24
+Default8.Scn.Fnt not present
+Warning: KeyState currently not implemented in Display.
+(GC 0ms CG)
+Received signal nr.  13 at signal handling level 1
+TRAP 13
+ CS:=00000023 DS:=0000002B ES:=0000002B SS:=0000002B CR0=?------? FPS=?------?
+ EIP=08049234 ESI=00000000 EDI=FF88F1C4 ESP=FF88F1CC CR2=00000000 SBT=FF88F3B0
+ EAX=00000000 EBX=0000000A ECX=FF88F1E4 EDX=00000020 CR3=?------? KFL=?------?
+ EBP=FF88F1CC FS:=00000000 GS:=00000000 ERR=00000000 CR4=?------? TCK=0000279C
+
+Linux0  PC = 156
+Input  PC = 3603
+Input  PC = 6219
+Oberon  PC = 8879
+System  PC = 18975
+Recived signal nr. n/a  0
+Terminating Oberon! 
+Closing Display.
